@@ -1,0 +1,23 @@
+body,.modal-content,.pagination{
+    background: url('/main/img/concrete_seamless.png');
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-color: #e2e2de;
+}
+
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.center-wrap {
+    text-align: center;
+}
+
+
+
