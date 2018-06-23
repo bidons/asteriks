@@ -6,7 +6,7 @@
     <header class="main-header">
         <!-- Logo -->
         <a href="#" class="logo">
-            <span class="logo-mini"><b>Astr</b>adm</span>
+            <span class="logo-mini"><b></b></span>
             <span class="logo-lg"><b>Asteriks</b> </span>
         </a>
         <?= $this->partial('layouts/nav') ?>

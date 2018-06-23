@@ -58,8 +58,8 @@ services:
     #image: phalconphp/nginx:1.10
     container_name: phalcon.compose.asteriks.nginx
     ports:
-      - "83:80"
-      - "446:443"
+      - "80:80"
+      - "443:443"
     depends_on:
       - php
     volumes:
@@ -80,8 +80,8 @@ services:
       restart: always
       container_name: phalcon.compose.asteriks.asteriks
       ports:
-        - "80:80"
-        - "443:443"
+        - "855:80"
+        - "4000:443"
       volumes:
         - ./asteriks:/usr/src/asterisk
       volumes_from:

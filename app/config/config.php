@@ -1,16 +1,6 @@
 <?php
 use Phalcon\Config;
 
-$filename = '/var/www/phalcon/vendor/autoload.php';
-
-    if (file_exists($filename)) {
-        echo "Файл $filename существует";
-    } else {
-        echo "Файл $filename не существует";
-    }
-
- 
-
 return new Config(
     [
         "database" => [
