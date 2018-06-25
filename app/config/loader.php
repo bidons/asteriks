@@ -16,7 +16,7 @@ $loader->registerDirs(
     ]
 );
 
-$loader->registerFiles(['/var/www/phalcon/vendor' . '/autoload.php']);
+/*$loader->registerFiles(['/var/www/phalcon/vendor' . '/autoload.php']);*/
 
 $loader->registerNamespaces(
     [

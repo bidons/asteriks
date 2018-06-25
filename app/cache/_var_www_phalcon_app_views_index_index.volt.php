@@ -28,11 +28,12 @@
 </style>
 
 <script>
+/*
 
-    var data = <?= $projectTree ?>;
 
     console.log(data);
     data = data.objectdb;
+*/
 
 
     /*Highcharts.chart('container', {

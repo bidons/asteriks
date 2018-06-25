@@ -3,7 +3,7 @@ version: '2'
 services:
   application:
     build: containers/core
-    container_name: phalcon.compose.asteriks.volume
+    container_name: phalcon.compose.asterisk.volume
     volumes:
       - .:/var/www/phalcon
       - ./cache:/var/cache/phalcon
@@ -13,7 +13,7 @@ services:
   postgres:
       restart: always
       build: containers/postgres
-      container_name: phalcon.compose.asteriks.postgres
+      container_name: phalcon.compose.asterisk.postgres
       working_dir: /var/www/phalcon
       ports:
         - "5437:5432"
@@ -28,7 +28,7 @@ services:
   php:
     build: containers/php
     restart: always
-    container_name: phalcon.compose.asteriks.php
+    container_name: phalcon.compose.asterisk.php
     ports:
       - "9000"
       - "9001"
@@ -46,7 +46,7 @@ services:
   redis:
     restart: always
     image: redis:latest
-    container_name: phalcon.compose.asteriks.redis
+    container_name: phalcon.compose.asterisk.redis
     ports:
       - "6379"
     volumes:
@@ -56,10 +56,10 @@ services:
     restart: always
     build: containers/nginx
     #image: phalconphp/nginx:1.10
-    container_name: phalcon.compose.asteriks.nginx
+    container_name: phalcon.compose.asterisk.nginx
     ports:
-      - "80:80"
-      - "443:443"
+      - "85:80"
+      - "444:443"
     depends_on:
       - php
     volumes:
@@ -75,15 +75,15 @@ services:
       APPLICATION_ENV: development
     tty: true
 
-  asteriks:
-      build: containers/asteriks
+  asterisk:
+      build: containers/asterisk
       restart: always
-      container_name: phalcon.compose.asteriks.asteriks
+      container_name: phalcon.compose.asterisk.asterisk
       ports:
         - "855:80"
         - "4000:443"
       volumes:
-        - ./asteriks:/usr/src/asterisk
+        - ./asterisk:/usr/src/asterisk
       volumes_from:
         - application
       tty: true
