@@ -1,32 +1,19 @@
 <?php
 
-use Phalcon\Loader;
-
-$loader = new Loader();
+$loader = new \Phalcon\Loader();
 
 /**
- * We're a registering a set of directories taken from the configuration fileregisterClas
+ * We're a registering a set of directories taken from the configuration file
  */
-$loader->registerDirs(
-    [
-        $config->application->controllersDir,
-        $config->application->modelsDir,
-        $config->application->libraryDir,
-        $config->application->vendorDir
-    ]
-);
+$loader->registerDirs([
+    APP_PATH . $config->application->controllersDir,
+    APP_PATH . $config->application->pluginsDir,
+    APP_PATH . $config->application->libraryDir,
+    APP_PATH . $config->application->modelsDir,
+    APP_PATH . $config->application->formsDir
+])->register();
 
-/*$loader->registerFiles(['/var/www/phalcon/vendor' . '/autoload.php']);*/
-
-$loader->registerNamespaces(
-    [
-        'App\Models' => $config->application->modelsDir,
-        'App\Library' => $config->application->libraryDir,
-    ],
-    true
-)->register();
-
-
-
-
+$loader->registerClasses([
+    'Services' => APP_PATH . 'app/Services.php'
+]);
 

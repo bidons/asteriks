@@ -1,26 +1,32 @@
 <?php
 
-use Phalcon\DI\FactoryDefault;
-
-require_once __DIR__ . '/../helpers.php';
-
 error_reporting(E_ALL);
 
+use Phalcon\Mvc\Application;
+use Phalcon\Config\Adapter\Ini as ConfigIni;
+
 try {
-    $config = include __DIR__ . "/../app/config/config.php";
-    include __DIR__ . "/../app/config/loader.php";
-    include __DIR__ . "/../app/config/services.php";
+    define('APP_PATH', realpath('..') . '/');
 
-    $application = new \Phalcon\Mvc\Application();
-    $application->setDI($di);
-    
-    echo $application->handle()->getContent();
-} catch (Phalcon\Exception $e) {
-    echo $e->getMessage();
-    die();
-} catch (PDOException $e) {
-    echo $e->getMessage();
+    /**
+     * Read the configuration
+     */
+    $config = new ConfigIni(APP_PATH . 'app/config/config.ini');
+    if (is_readable(APP_PATH . 'app/config/config.ini.dev')) {
+        $override = new ConfigIni(APP_PATH . 'app/config/config.ini.dev');
+        $config->merge($override);
+    }
+
+    /**
+     * Auto-loader configuration
+     */
+    require APP_PATH . 'app/config/loader.php';
+
+    $application = new Application(new Services($config));
+
+    // NGINX - PHP-FPM already set PATH_INFO variable to handle route
+    echo $application->handle(!empty($_SERVER['PATH_INFO']) ? $_SERVER['PATH_INFO'] : null)->getContent();
+} catch (Exception $e){
+    echo $e->getMessage() . '<br>';
+    echo '<pre>' . $e->getTraceAsString() . '</pre>';
 }
-
-
-

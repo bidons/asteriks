@@ -28,14 +28,14 @@ option=$1
 array=''
 
 bi() {
-    docker  exec phalcon.compose.asteriks.php  bower install --allow-root
-    docker  exec phalcon.compose.asteriks.php  chmod -R 777 /var/www/phalcon/public/components
+    docker  exec phalcon.compose.asterisk.php  bower install --allow-root
+    docker  exec phalcon.compose.asterisk.php  chmod -R 777 /var/www/phalcon/public/components
 }
 
 start() {
     docker-compose up -d
     bi
-    docker exec phalcon.compose.asteriks.php chmod -R 777 /var/www/phalcon
+    docker exec phalcon.compose.asterisk.php chmod -R 777 /var/www/phalcon
     # startAllListener
     sleep  10
     docker-compose ps
@@ -53,23 +53,23 @@ stop() {
 }
 
 mu() {
-    docker exec phalcon.compose.asteriks.php php app/migration/phinx migrate
+    docker exec phalcon.compose.asterisk.php php app/migration/phinx migrate
 }
 
 cm()
 {
-    #docker exec phalcon.compose.asteriks.postgres psql -U postgres -d postgres -f app/migration/dump/init_role_locale.sql
-    docker exec phalcon.compose.asteriks.postgres psql -U postgres -d postgres -c "SELECT pg_terminate_backend(pg_stat_activity.pid)
+    #docker exec phalcon.compose.asterisk.postgres psql -U postgres -d postgres -f app/migration/dump/init_role_locale.sql
+    docker exec phalcon.compose.asterisk.postgres psql -U postgres -d postgres -c "SELECT pg_terminate_backend(pg_stat_activity.pid)
 FROM pg_stat_activity
-WHERE pg_stat_activity.datname = 'asteriks'
+WHERE pg_stat_activity.datname = 'asterisk'
   AND pid <> pg_backend_pid();"
 
-    docker exec phalcon.compose.asteriks.postgres  psql -U root -d postgres -c "DROP DATABASE IF EXISTS asteriks"
-    docker exec phalcon.compose.asteriks.postgres  psql -U root -d postgres -c "CREATE DATABASE asteriks"
-    docker exec phalcon.compose.asteriks.postgres  pg_restore -d asteriks app/migration/dump/dump.dump
-    docker exec phalcon.compose.asteriks.php  app/migration/phinx migrate
+    docker exec phalcon.compose.asterisk.postgres  psql -U root -d postgres -c "DROP DATABASE IF EXISTS asterisk"
+    docker exec phalcon.compose.asterisk.postgres  psql -U root -d postgres -c "CREATE DATABASE asterisk"
+    docker exec phalcon.compose.asterisk.postgres  pg_restore -d asterisk app/migration/dump/dump.dump
+    docker exec phalcon.compose.asterisk.php  app/migration/phinx migrate
 
-    docker exec phalcon.compose.asteriks.redis redis-cli flushall
+    docker exec phalcon.compose.asterisk.redis redis-cli flushall
 }
 
 
@@ -109,7 +109,7 @@ rdc() {
 
 cd() {
      echo 'Db creating started!! Waiting!'
-    docker exec phalcon.compose.asteriks.postgres pg_dump -Fc dev_soscredit > app/migration/dump/dump.dump
+    docker exec phalcon.compose.asterisk.postgres pg_dump -Fc dev_soscredit > app/migration/dump/dump.dump
 }
 
 fr(){

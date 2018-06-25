@@ -75,18 +75,18 @@ services:
       APPLICATION_ENV: development
     tty: true
 
-  asterisk:
-      build: containers/asterisk
-      restart: always
-      container_name: phalcon.compose.asterisk.asterisk
-      ports:
-        - "855:80"
-        - "4000:443"
-      volumes:
-        - ./asterisk:/usr/src/asterisk
-      volumes_from:
-        - application
-      tty: true
+  #asterisk:
+  #    build: containers/asterisk
+  #    restart: always
+  #    container_name: phalcon.compose.asterisk.asterisk
+  #    ports:
+  #      - "855:80"
+  #      - "4000:443"
+  #    #volumes:
+  #    #  - ./asterisk:/var/spool/asterisk
+  #    volumes_from:
+  #      - application
+  #    tty: true
 
 volumes:
   postgres:
