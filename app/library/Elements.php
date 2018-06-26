@@ -12,9 +12,14 @@ class Elements extends Component
     private $_headerMenu = [
         'navbar-left' => [
             'workflow' => [
-                'caption' => 'workflow',
+                'caption' => 'Рабочая область',
                 'action' => 'index'
             ],
+            'register' => [
+                'caption' => 'Регистрация пользователя',
+                'action' => 'index'
+            ],
+
         ],
         'navbar-right' => [
             'session' => [
@@ -31,15 +36,17 @@ class Elements extends Component
      */
     public function getMenu()
     {
-
         $auth = $this->session->get('auth');
         if ($auth) {
             $this->_headerMenu['navbar-right']['session'] = [
                 'caption' => 'Log Out',
                 'action' => 'end'
             ];
+
+
         } else {
             unset($this->_headerMenu['navbar-left']['workflow']);
+            unset($this->_headerMenu['navbar-left']['register']);
         }
 
         $controllerName = $this->view->getControllerName();

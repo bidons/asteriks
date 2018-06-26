@@ -115,7 +115,8 @@ cd() {
 fr(){
     start
     ci
-    ld
+    bi
+    cu
     mu
 }
 

@@ -2,957 +2,79 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="674317a8-e5ea-481c-aa1a-284a9405454b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Services.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/config.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/ErrorsController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/RegisterController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/SessionController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/WorkflowController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/forms/RegisterForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/library/Base/Services.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/library/Elements.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/logs/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Users.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/plugins/NotFoundPlugin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/plugins/SecurityPlugin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/errors/show401.volt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/errors/show404.volt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/errors/show500.volt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/about.volt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/companies.volt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/contact.volt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/errors.volt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/index.volt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/invoices.volt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/main.volt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/products.volt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/producttypes.volt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/register.volt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/session.volt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/register/index.volt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/session/index.volt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/workflow/index.volt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/workflow/profile.volt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cache/volt/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schemas/createdb.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schemas/invo.sql" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/_var_www_phalcon_app_views_call_index.volt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/_var_www_phalcon_app_views_index.volt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/_var_www_phalcon_app_views_index_index.volt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/_var_www_phalcon_app_views_layouts_footer.volt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/_var_www_phalcon_app_views_layouts_head.volt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/_var_www_phalcon_app_views_layouts_header.volt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/_var_www_phalcon_app_views_layouts_nav.volt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/_var_www_phalcon_app_views_layouts_objdb.volt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/_var_www_phalcon_app_views_layouts_olapl.volt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/_var_www_phalcon_app_views_layouts_paralll.volt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/_var_www_phalcon_app_views_objectdb_index.volt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/_var_www_phalcon_app_views_objectdb_part1.volt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/_var_www_phalcon_app_views_objectdb_part2.volt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/_var_www_phalcon_app_views_objectdb_part3.volt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/_var_www_phalcon_app_views_objectdb_part4.volt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/_var_www_phalcon_app_views_objectdb_part5.volt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/_var_www_phalcon_app_views_objectdb_part6.volt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/_var_www_phalcon_app_views_olap_index.volt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/_var_www_phalcon_app_views_parall_index.volt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/_var_www_phalcon_app_views_parall_part1.volt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/_var_www_phalcon_app_views_parall_part2.volt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/_var_www_phalcon_app_views_section_index.volt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/config/config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/config/services.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/AuthController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/CallController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/DataTableControllerTraitExt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/library/DataTable/DataTableControllerTraitExt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/library/Model/ModelsManager.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/library/Model/PgPdoAdapter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/library/Paging/Paging.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/migration/Migration.template.php.dist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/migration/dump/db.dump" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/migration/phinx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/migration/phinx.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/migration/source/migrations/20180621142136_first_migration_create_auth.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/auth/index.volt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/back.volt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/call/index.volt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/head.volt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/nav.volt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/composer.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/db_log.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/cover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/generator/generate-list.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/generator/generate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/generator/sample-iwc.handlebars" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/generator/sample-iwc.handlebars.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/generator/sample.handlebars" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/generator/sample.handlebars.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/sprite/iconwc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/sprite/list.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/sprite/sample-iwc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/sprite/sample.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/sprite/sprite.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-abacus.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-adjustment-horizon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-adjustment-vertical.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-air-balloon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-airplane-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-airplane.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-alarm-clock.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-alien.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-aligh-left.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-align-center.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-align-left.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-align-right.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-ambulance.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-anchor.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-android.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-angle-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-angle-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-antenna-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-apron.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-backward.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-change.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-circle-rycycle.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-down.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-forward.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-four-way.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-fullscreen-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-fullscreen.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-left-right.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-left.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-move.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-reload.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-resize-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-resize-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-resize-3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-resize-4.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-resize-5.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-resize-6.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-right.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-shuffle.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-thick-down.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-thick-left.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-thick-right.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-thick-thin-down.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-thick-thin-up.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-thick-up.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-thin-down.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-thin-left-bottom.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-thin-left-top.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-thin-left.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-thin-right-bottom.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-thin-right-top.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-thin-right.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-thin-up.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-three-way-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-three-way-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-triangle-recycle.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-two-left-right.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-two-up.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-two-way-left-right.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-two-way-right-bottom.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-two-way-right.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-two-way.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-up-down.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-up.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-arrow-wave.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-art-board.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-askterisk.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-atm-card.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-axe.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-baby-milk-botl.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-baby-stroller.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-baby-troller.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-baby.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-back-pack.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-backward-page.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-badge-name.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bag-plus.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bag-remove.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bag.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-balance.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-balloon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bandage.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bank.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-barcode.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-barrier.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-baseball-stick.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-baseball.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-basket-arrow-down.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-basket-arrow-left.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-basket-arrow-right.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-basket-arrow-up.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-basket-checked.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-basket-error.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-basket-plus.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-basket-remove.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-basket.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-basketball.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-battery-charging.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-battery-empty.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-battery-full.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-battery-half-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-battery-half.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-battery-low.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bed.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bell.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bicycle-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bicycle-3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bicycle-man.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bikini.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-billiard-ball.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-binocular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-birthday-cake.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-biscuit.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-blender.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-blood-bag.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bluetooth.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-board.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-boat.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bolt.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bomb-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bomb-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bone.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-book-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-book-3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-book-4.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-book-@.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-book-open.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-book-person.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bookcase.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bookmark.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-botl-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-botl-milk.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bow-tie.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-box-download.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-box-upload.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-box.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bread.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-briefcase-person.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-briefcase.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-brightness.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-brush-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-brush-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-brush-and-pencil.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bubble-chat.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bubble-message-dot-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bubble-message-dot.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bubble-message-hi.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bubble-message-quote.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bubble-message-talk.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bubble-message-text.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bubble-message.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bucket.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bug.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-building.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bullet-checked-list.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bullet-list-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bullet-list.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-bus.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-button-arrow-down.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-button-arrow-left.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-button-arrow-right.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-button-arrow-up.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-button-buy.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-button-error.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-button-hd.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-button-play.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-button-plus.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-button-remove.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-button-sale.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-button-sell.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-button-starburst.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-button-triangle-up.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-button-tv.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-cabin-cable.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-cabinet.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-calculator-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-calculator.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-calendar-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-calendar-3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-calendar-empty.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-call-forward.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-call-reply.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-call.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-camera-projector.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-camera-security.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-camera.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-can-water.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-candle.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-candy-stick.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-candy.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-car-garage.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-car.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-casette.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-cashier-machine.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-castle.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-caterpillar-machine.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-cente-justify.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-chair-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-chair-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-champion-cup.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-chart-column-decrease.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-chart-column-increase.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-chart-column.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-chart-decrease.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-chart-piece.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-checked.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-cheese.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-cherry.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-christmas-mistletoe.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-christmass-ball.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-christmass-egg.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-christmass-hat.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-christmass-tree.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-circle-backward.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-circle-control-pad.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-circle-drashed.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-circle-error.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-circle-forward.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-circle-help.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-circle-info.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-circle-load-left.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-circle-load-right.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-circle-plus.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-circle-remove.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-circle-star.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-circle-triangle-down.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-circle-triangle-left.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-circle-triangle-right.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-circle.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-city.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-clamp.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-clapboard-play.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-clapboard.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-clip.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-clipboard-checked.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-clipboard.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-clock.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-close.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-cloud-cloud.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-cloud-download.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-cloud-heavy-rain.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-cloud-plus.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-cloud-rain-heavy-rain.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-cloud-remove.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-cloud-snow.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-cloud-sun.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-cloud-thunder.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-cloud-upload.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-cloud.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-clover.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-cock-pot.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-cocktail.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-coconut.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-code.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-coffee-machine.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-color-picker.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-column-decrease.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-column-increase.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-column-wave.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-comb.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-compass.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-cone.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-congratulation-hat.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-connect-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-connect-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-contact-book.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-contacter.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-contrast.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-control-pad-.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-corkscrew.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-corner-flag.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-cover-flow.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-cover-food.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-cow.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-cpu.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-cran.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-crop.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-cross-hair-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-cross-hair.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-crown.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-cruise.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-cubic.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-cup-cake.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-curtain.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-customer-support.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-dashboard.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-data-arrow-down.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-database-download.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-database-error.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-database-plus.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-database-remove.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-database-share.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-database-upload.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-database.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-delete.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-delicious-circle.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-deny.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-desktop.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-dial-number-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-dial-number.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-diamond.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-dice-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-dice-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-dice-3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-dice-5.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-dice-6-.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-dice-6.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-disc-add.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-disc-deny.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-disc-download.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-disc-error.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-disc-pause.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-disc-play-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-disc-play.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-disc-remove.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-disc-stop.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-disc-upload.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-disc.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-dish.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-disk-antenna.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-dna.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-document-arrow-down.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-document-arrow-left.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-document-arrow-right.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-document-arrow-up.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-document-backward.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-document-bullet-list.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-document-checked.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-document-copy.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-document-doc.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-document-edit.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-document-error.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-document-forward.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-document-help.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-document-music.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-document-pdf.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-document-plus.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-document-remove.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-document-rss.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-document-search.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-document-star.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-document-warning.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-document.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-dog.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-door.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-downstair.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-downwards-arrow-to-bar.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-drill.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-drop-water.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-dropbox.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-drum.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-easal.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-edit.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-egg.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-eject.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-electron.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-elevator-down.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-elevator-up.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-emoticon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-end-page.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-erase.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-euro.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-excavator.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-extinguisher.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-eye-drop.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-eye-glass.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-factory.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-faucet.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-feather.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-female.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-fence-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-fence.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-file-box.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-file-download.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-file-upload.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-film-35mm.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-film.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-finder.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-finger-up.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-fire-alarm.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-fire-hydrant.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-fire-wood.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-fire.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-first-aid-briefcase.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-fish.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-flag.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-float.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-floppy-disk.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-flower-pot.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-flower.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-folder-contact.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-folder-error.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-folder-music.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-folder-open.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-folder-plus.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-folder-remove.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-folder-rss.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-folder-search.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-folder-share.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-folder-warning.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-folder.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-foot-sign.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-forcus.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-forklift.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-forward-page.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-fridge.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-fullscreen.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-game-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-game-controll.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-gas-station.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-gate.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-gear-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-gear.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-ghost.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-gift.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-glass-water.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-global.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-globe.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-glove.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-golf-ball.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-golf-flag.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-guitar.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-hamburger.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-hammer-and-wrench.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-hammer.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-hand-lamp.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-hand-switch.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-hand.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-handcuff.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-hanger.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-hardware.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-hat-chef.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-hat.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-head-set.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-head.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-heart-delete.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-heart-plus.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-heart-remove.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-heart-signal.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-heart.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-helicopter-pad.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-helicopter.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-helm-wheel.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-helmet.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-hightheel.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-history.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-hockey.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-home-page.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-horse-shoe.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-horse.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-hospital.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-house.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-ice-cream.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-id-badge.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-image.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-in-columns.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-inbox-download.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-inbox-upload.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-infinity-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-infinity.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-info.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-ipod.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-iron.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-jump-backward.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-jump-double-page-left-right.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-jump-forward.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-jump-page-left-right.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-jump-page-up-down.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-kette.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-key-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-key.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-keyboard.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-knife.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-ladder-pool.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-lamp-desk.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-lamp.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-lavabo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-law-hammer.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-layout-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-layout-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-layout-3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-layout-4.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-leaf.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-left-justify.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-leftwards-arrow-to-bar.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-light-alarm.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-light-bulb.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-light-house.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-like-unlike.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-like.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-line-two-angle-point.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-link-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-link-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-link-3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-load.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-lock-unlock.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-lock.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-louder-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-louder-speaker.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-magnet.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-magnifier-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-magnifier.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-mail-box.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-mail-empty.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-mail-has-mail.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-mail-inbox.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-mail-send.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-mail.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-male.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-man-doctor.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-map-3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-map-square.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-mark-snorker.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-mask-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-mask-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-medal-star.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-microphone-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-microphone-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-microscope.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-mobile.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-mocule.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-money-$.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-money-3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-money-bag.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-money-coin.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-moon-star.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-motobike.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-mountain.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-movie-play.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-movie-projector.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-multifunction-knife.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-mushrooms.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-music-note.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-music.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-mustache.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-network-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-network.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-newspaper.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-no-dog.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-no-smoke.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-note-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-note.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-old-phone.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-open.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-pallette.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-paper-clip.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-paper-plane.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-paper-roll.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-paper-shredder.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-pause.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-pawn.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-paypal.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-pen-nib.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-pen.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-pencil.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-percent.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-person-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-person-checked.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-person-door-man.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-person-error.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-person-man.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-person-people.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-person-plus.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-person-prison.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-person-public.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-person-remove.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-person-talk.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-person-woman.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-person.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-pet-carrier.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-phone-fax.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-phone-number.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-piano.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-pick.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-picture-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-picture-copy.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-picture.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-piggy-bank.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-pill.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-pin-location-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-pin-location-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-pin-location-add.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-pin-location-delete.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-pin-location-love.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-pin-location-map.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-pin-location-remove.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-pin-location.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-pin-map.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-ping-pong-racket.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-pipe.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-pizza.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-plugin.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-plus.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-podium.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-poker-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-poker-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-poker-3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-poker-4.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-print.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-puzzle.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-quote-close.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-quote-open.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-radio.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-radioactive.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-record.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-reduce.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-reel-audio.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-reel-film.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-remove.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-repeat.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-resize-in-frame.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-resize-out-frame.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-retroeexcavadora.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-ribbon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-right-justify.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-rightwards-arrow-to-bar.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-ring.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-road.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-rocket.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-roller.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-rss.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-rugby-ball.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-ruler.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-safe-box.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-safe-pin.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-satellite.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-saw.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-scissor-line-cut.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-scissor.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-screen-ful.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-screen-scale.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-screw-driver.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-screw.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-sd-card.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-seriff.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-sewing-machine.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-sewing-roll.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-share-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-share-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-share-3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-share-5.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-sheep.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-shield-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-shield-plus.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-shield-star.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-shield.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-shovel.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-shower.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-sign-board.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-sign-foot.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-sign-in.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-sign-out.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-sign-p.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-sign-road-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-sign-road-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-signal-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-signal-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-signal-3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-site-map-revert.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-site-map.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-skateboard.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-skull.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-sleep.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-slide-show.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-smartphone.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-sms.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-snow.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-soccer-yard.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-sock.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-socket.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-solar-blind.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-sos.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-sound-mute.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-sound.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-space-ship.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-spanner.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-spoon-fork.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-spray.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-square-checked.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-square-dashed-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-square-dashed-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-square-delicious.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-square-eight-angle-point.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-square-four-angle-point.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-square-four.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-square-plus.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-square-star.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-square.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-stamps.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-star-cross.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-star-stick.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-stele.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-stelescope.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-stereo-jack.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-stethoscope.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-store.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-stove.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-strawberry.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-street-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-strolley-arrow-down.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-strolley-arrow-up.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-strolley-plus.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-strolley-remove.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-strolley.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-subway.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-suitcase-person.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-suitcase.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-syringe.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-t-shirt.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-tablet.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-tag-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-tag-one-plus.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-tag-price.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-tag.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-tank.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-targer.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-tea-cup.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-teeth.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-telephone-box.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-telescope.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-television.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-tennis-racket-ball.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-tent-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-tent-camp.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-test-tube-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-test-tube-empty.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-test-tube.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-text-search.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-thermometer.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-three-ball.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-tic-tac-toe.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-time-glass.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-time-reload.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-timer.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-toilet.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-tool-box.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-traffic-light.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-train-rail.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-train.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-trash.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-tree.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-trees.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-triangle-double-arrow-down.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-triangle-double-arrow-left.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-triangle-double-arrow-right.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-triangle-double-arrow-up.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-triangle-down.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-triangle-left.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-triangle-right.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-triangle-up.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-trolley-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-trolley-arrow-down.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-trolley-arrow-up.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-trolley-briefcase.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-trolley-error.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-trolley-full.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-trolley-plus.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-trolley-remove.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-truck.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-trumpet.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-turn-off.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-two-arrow-down.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-two-arrow-in-down-up.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-two-arrow-in-left-right.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-two-arrow-left.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-two-arrow-right.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-typewriter.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-umberlla-chair.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-umbrella-close.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-umbrella-open.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-umbrella-sea.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-upstair.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-upwards-arrow-to-bar.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-upwards-arrow-with-loop.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-usb.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-view.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-wacom-tablet.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-wall.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-wallet.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-wash-machine-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-wash-machine.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-watch.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-webcam.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-weight-down.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-weight-kilograms.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-weight-up.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-wheel-chair.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-wheel-steel.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-wieght.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-wifi-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-wind-turbines.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-window.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-wood-stove.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-wrench-screwdriver.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-wrench.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-yen.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-ying-yang.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-zip.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-zoom-in.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyph-iconset-master/svg/si-glyph-zoom-out.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/img/bg_old.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/img/calosha.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/img/concrete_seamless.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/img/cube.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/img/grey_backgrnd.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/img/intro-pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/img/kuas.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/img/operation_beadon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/img/our_team_all.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/img/our_team_cat_dgentl.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/img/our_team_dzerdjinskiy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/img/our_team_meteo_man.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/img/our_team_tricky_cat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/img/out_team_surikat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/img/paging_object_full_new.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/img/paging_table_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/img/person_1.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/img/person_2.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/img/person_3.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/img/postgresql.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/img/slide-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/img/slide-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/img/slide-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/img/super_book.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/js/DataTableWrapperExt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/main/js/highstockWrapper.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asterisk/config/conf.2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asterisk/dynamic/record/cartoon001.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/migration/Migration.template.php.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/migration/phinx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/plugins/tinyfilemanager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/back.volt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/head.volt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/nav.volt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asterisk/config/conf.1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/file.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/about.volt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/companies.volt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/contact.volt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/products.volt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/producttypes.volt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="$PROJECT_DIR$/public/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/asteriks.iml" afterPath="$PROJECT_DIR$/.idea/asteriks.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Services.php" afterPath="$PROJECT_DIR$/app/Services.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.ini" afterPath="$PROJECT_DIR$/app/config/config.ini" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/loader.php" afterPath="$PROJECT_DIR$/app/config/loader.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/ControllerBase.php" afterPath="$PROJECT_DIR$/app/controllers/ControllerBase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/ErrorsController.php" afterPath="$PROJECT_DIR$/app/controllers/ErrorsController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/IndexController.php" afterPath="$PROJECT_DIR$/app/controllers/IndexController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/RegisterController.php" afterPath="$PROJECT_DIR$/app/controllers/RegisterController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/SessionController.php" afterPath="$PROJECT_DIR$/app/controllers/SessionController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/WorkflowController.php" afterPath="$PROJECT_DIR$/app/controllers/WorkflowController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/forms/RegisterForm.php" afterPath="$PROJECT_DIR$/app/forms/RegisterForm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/library/Base/Services.php" afterPath="$PROJECT_DIR$/app/library/Base/Services.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/library/Elements.php" afterPath="$PROJECT_DIR$/app/library/Elements.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/logs/.gitignore" afterPath="$PROJECT_DIR$/app/logs/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Users.php" afterPath="$PROJECT_DIR$/app/models/Users.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/plugins/NotFoundPlugin.php" afterPath="$PROJECT_DIR$/app/plugins/NotFoundPlugin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/plugins/SecurityPlugin.php" afterPath="$PROJECT_DIR$/app/plugins/SecurityPlugin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/errors/show401.volt" afterPath="$PROJECT_DIR$/app/views/errors/show401.volt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/errors/show404.volt" afterPath="$PROJECT_DIR$/app/views/errors/show404.volt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/errors/show500.volt" afterPath="$PROJECT_DIR$/app/views/errors/show500.volt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/index.volt" afterPath="$PROJECT_DIR$/app/views/index.volt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/index/index.volt" afterPath="$PROJECT_DIR$/app/views/index/index.volt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/errors.volt" afterPath="$PROJECT_DIR$/app/views/layouts/errors.volt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/index.volt" afterPath="$PROJECT_DIR$/app/views/layouts/index.volt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/invoices.volt" afterPath="$PROJECT_DIR$/app/views/layouts/invoices.volt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/main.volt" afterPath="$PROJECT_DIR$/app/views/layouts/main.volt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/register.volt" afterPath="$PROJECT_DIR$/app/views/layouts/register.volt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/session.volt" afterPath="$PROJECT_DIR$/app/views/layouts/session.volt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/register/index.volt" afterPath="$PROJECT_DIR$/app/views/register/index.volt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/session/index.volt" afterPath="$PROJECT_DIR$/app/views/session/index.volt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/workflow/index.volt" afterPath="$PROJECT_DIR$/app/views/workflow/index.volt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/workflow/profile.volt" afterPath="$PROJECT_DIR$/app/views/workflow/profile.volt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backup.sh" afterPath="$PROJECT_DIR$/backup.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/volt/.gitignore" afterPath="$PROJECT_DIR$/cache/volt/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/containers/asterisk/Dockerfile" afterPath="$PROJECT_DIR$/containers/asterisk/Dockerfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker-compose.yml" afterPath="$PROJECT_DIR$/docker-compose.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/LICENSE.md" afterPath="$PROJECT_DIR$/docs/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/LICENSE.txt" afterPath="$PROJECT_DIR$/docs/LICENSE.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helpers.php" afterPath="$PROJECT_DIR$/helpers.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/init.sh" afterPath="$PROJECT_DIR$/init.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/.htaccess" afterPath="$PROJECT_DIR$/public/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/public/css/bootstrap-theme.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/public/css/bootstrap-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/public/css/bootstrap.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery.min.js" afterPath="$PROJECT_DIR$/public/js/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/utils.js" afterPath="$PROJECT_DIR$/public/js/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemas/createdb.php" afterPath="$PROJECT_DIR$/schemas/createdb.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemas/invo.sql" afterPath="$PROJECT_DIR$/schemas/invo.sql" />
     </list>
     <ignored path="asteriks.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -977,75 +99,71 @@
       <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+            <state relative-caret-position="283">
+              <caret line="89" column="11" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="11" />
               <folding>
-                <marker date="1529942458743" expanded="true" signature="14:23" ph="..." />
+                <marker date="1530012657714" expanded="true" signature="14:23" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/containers/asterisk/Dockerfile">
+      <file leaf-file-name="init.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/init.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+            <state relative-caret-position="967">
+              <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/RegisterController.php">
+      <file leaf-file-name="backup.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backup.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            <state relative-caret-position="144">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WorkflowController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/WorkflowController.php">
+      <file leaf-file-name="dump_latest.dump" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/migration/dump/dump_latest.dump">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
-              <folding>
-                <element signature="e#7#25#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Elements.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/library/Elements.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-313">
-              <caret line="41" column="61" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Users.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/Users.php">
+      <file leaf-file-name="20180626070619_user_auth_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/migration/source/migrations/20180626070619_user_auth_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            <state relative-caret-position="252">
+              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SecurityPlugin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/plugins/SecurityPlugin.php">
+      <file leaf-file-name="phinx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/migration/phinx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
-              <folding>
-                <element signature="e#7#23#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="-185">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phinx.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/migration/phinx.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1053,28 +171,30 @@
       <file leaf-file-name="ControllerBase.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/ControllerBase.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/IndexController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="0" selection-start-line="8" selection-start-column="5" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ErrorsController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/ErrorsController.php">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="11" column="34" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="34" />
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="e#7#34#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loader.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/loader.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/config.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1088,56 +208,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/containers/asteriks/build_menu.sh" />
-        <option value="$PROJECT_DIR$/containers/asteriks/http.conf" />
-        <option value="$PROJECT_DIR$/containers/core/Dockerfile" />
-        <option value="$PROJECT_DIR$/containers/asteriks/Dockerfile" />
-        <option value="$PROJECT_DIR$/bower.json" />
-        <option value="$PROJECT_DIR$/.bowerrc" />
-        <option value="$PROJECT_DIR$/app/views/layouts/header.volt" />
-        <option value="$PROJECT_DIR$/app/views/layouts/head.volt" />
-        <option value="$PROJECT_DIR$/app/views/layouts/nav.volt" />
-        <option value="$PROJECT_DIR$/app/controllers/SectionController.php" />
-        <option value="$PROJECT_DIR$/app/views/Section/index.volt" />
-        <option value="$PROJECT_DIR$/app/controllers/Call.php" />
-        <option value="$PROJECT_DIR$/app/views/back.volt" />
-        <option value="$PROJECT_DIR$/backup.sh" />
-        <option value="$PROJECT_DIR$/app/controllers/CallController.php" />
-        <option value="$PROJECT_DIR$/app/library/Auth/Config.php" />
-        <option value="$PROJECT_DIR$/app/library/Auth/Auth.php" />
-        <option value="$PROJECT_DIR$/vendor/autoload.php" />
         <option value="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-        <option value="$PROJECT_DIR$/app/views/index.volt" />
-        <option value="$PROJECT_DIR$/app/views/index/index.volt" />
-        <option value="$PROJECT_DIR$/helpers.php" />
         <option value="$PROJECT_DIR$/app/controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/app/views/auth/index.volt" />
         <option value="$PROJECT_DIR$/app/controllers/AuthController.php" />
-        <option value="$PROJECT_DIR$/init.sh" />
         <option value="$PROJECT_DIR$/app/config/config.php" />
-        <option value="$PROJECT_DIR$/app/migration/phinx.yml" />
         <option value="$PROJECT_DIR$/vendor/phpauth/phpauth/Config.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/migration/source/migrations/20151106210628_first_migration.php" />
         <option value="$PROJECT_DIR$/app/migration/source/migrations/20151109231428_reset_password_add_expires.php" />
         <option value="$PROJECT_DIR$/app/migration/source/migrations/20180621142136_first_migration_create_auth.php" />
         <option value="$PROJECT_DIR$/app/config/loader.php" />
-        <option value="$PROJECT_DIR$/public/index.php" />
-        <option value="$PROJECT_DIR$/app/config/config.ini" />
-        <option value="$PROJECT_DIR$/app/views/register/index.volt" />
         <option value="$PROJECT_DIR$/app/views/invoices/index.volt" />
         <option value="$PROJECT_DIR$/app/views/layouts/invoices.volt" />
+        <option value="$PROJECT_DIR$/app/controllers/InvoicesController.php" />
+        <option value="$PROJECT_DIR$/vendor/robmorgan/phinx/src/Phinx/Migration/Migration.template.php.dist" />
+        <option value="$PROJECT_DIR$/migration/phinx.yml" />
+        <option value="$PROJECT_DIR$/migration/phinx" />
+        <option value="$PROJECT_DIR$/app/migration/source/migrations/20180626070619_user_auth_table.php" />
+        <option value="$PROJECT_DIR$/app/config/config.ini" />
         <option value="$PROJECT_DIR$/app/controllers/ControllerBase.php" />
         <option value="$PROJECT_DIR$/app/views/session/index.volt" />
-        <option value="$PROJECT_DIR$/app/controllers/InvoicesController.php" />
-        <option value="$PROJECT_DIR$/app/controllers/SessionController.php" />
-        <option value="$PROJECT_DIR$/app/views/errors/show401.volt" />
-        <option value="$PROJECT_DIR$/app/views/workflow/profile.volt" />
-        <option value="$PROJECT_DIR$/app/views/layouts/main.volt" />
-        <option value="$PROJECT_DIR$/app/library/Elements.php" />
         <option value="$PROJECT_DIR$/app/plugins/SecurityPlugin.php" />
+        <option value="$PROJECT_DIR$/app/views/layouts/main.volt" />
+        <option value="$PROJECT_DIR$/public/components/admin-lte/dist/css/AdminLTE.css" />
+        <option value="$PROJECT_DIR$/app/views/layouts/nav.volt" />
+        <option value="$PROJECT_DIR$/app/views/layouts/head.volt" />
+        <option value="$PROJECT_DIR$/app/views/layouts/session.volt" />
+        <option value="$PROJECT_DIR$/app/controllers/SessionController.php" />
+        <option value="$PROJECT_DIR$/app/library/Elements.php" />
+        <option value="$PROJECT_DIR$/app/controllers/ErrorsController.php" />
+        <option value="$PROJECT_DIR$/app/views/register/index.volt" />
+        <option value="$PROJECT_DIR$/app/forms/RegisterForm.php" />
+        <option value="$PROJECT_DIR$/app/views/index/index.volt" />
+        <option value="$PROJECT_DIR$/app/views/index.volt" />
+        <option value="$PROJECT_DIR$/containers/asterisk/Dockerfile" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/app/plugins/tinyfilemanager.php" />
+        <option value="$PROJECT_DIR$/app/Services.php" />
         <option value="$PROJECT_DIR$/app/controllers/RegisterController.php" />
+        <option value="$PROJECT_DIR$/app/views/back.volt" />
+        <option value="$PROJECT_DIR$/app/controllers/WorkflowController.php" />
+        <option value="$PROJECT_DIR$/helpers.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/app/views/workflow/profile.volt" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/app/views/errors/show401.volt" />
+        <option value="$PROJECT_DIR$/public/file.php" />
+        <option value="$PROJECT_DIR$/app/views/workflow/index.volt" />
+        <option value="$PROJECT_DIR$/backup.sh" />
+        <option value="$PROJECT_DIR$/init.sh" />
+        <option value="$PROJECT_DIR$/app/migration/phinx.yml" />
       </list>
     </option>
   </component>
@@ -1211,6 +332,24 @@
               <option name="myItemId" value="asterisk" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dynamic" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asterisk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asterisk" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asterisk" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -1221,32 +360,34 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="55" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="45" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="67" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="63" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="72" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="65" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="664" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="662" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="55" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="54" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="67" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="65" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="72" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="70" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="664" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="646" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/cache" />
-      <recent name="$PROJECT_DIR$/app/views" />
+      <recent name="$PROJECT_DIR$/app/migration/dump" />
+      <recent name="$PROJECT_DIR$/asterisk/dynamic/record" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/asterisk/config" />
+      <recent name="$PROJECT_DIR$/app/library" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/plugins" />
+      <recent name="$PROJECT_DIR$/migration" />
       <recent name="$PROJECT_DIR$/app" />
     </key>
   </component>
@@ -1307,25 +448,26 @@
       <workItem from="1529580987233" duration="15503000" />
       <workItem from="1529745399302" duration="6212000" />
       <workItem from="1529863998097" duration="1702000" />
-      <workItem from="1529916676795" duration="24690000" />
+      <workItem from="1529916676795" duration="26419000" />
+      <workItem from="1529955865338" duration="25004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51212000" />
+    <option name="totallyTimeSpent" value="77945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1431" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31122166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2107005" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36458334" sideWeight="0.29740188" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48856547" sideWeight="0.19249862" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39791667" sideWeight="0.46047541" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.48922056" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3128898" sideWeight="0.43408716" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3045738" sideWeight="0.88858247" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36458334" sideWeight="0.7025981" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48856547" sideWeight="0.8075014" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1348,44 +490,31 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.5" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/ProductsController.php">
+    <entry file="file://$PROJECT_DIR$/containers/asterisk/build_menu.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="144">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Products.php">
+    <entry file="file://$PROJECT_DIR$/containers/asterisk/http.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="612">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/ProductTypes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Companies.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/containers/php/start.sh">
+    <entry file="file://$PROJECT_DIR$/containers/nginx/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1395,40 +524,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/containers/php/php.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4590">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="-414">
+          <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/about/index.volt">
+    <entry file="file://$PROJECT_DIR$/containers/php/start.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        <state relative-caret-position="54">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logs/db_log.log">
+    <entry file="file://$PROJECT_DIR$/containers/php/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-486">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/containers/asterisk/build_menu.sh">
+    <entry file="file://$PROJECT_DIR$/containers/php/fpm/www.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cache/app/logs/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-54">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1441,7 +562,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/logs/.gitignore">
+    <entry file="file://$PROJECT_DIR$/composer.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1449,7 +570,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/about.volt">
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asterisk/config/conf.1">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1457,89 +594,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/companies.volt">
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#61#89#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/index.volt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/library/Base/Services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/volt/%%var%%www%%phalcon%%app%%views%%layouts%%index.volt.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/contact.volt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/register.volt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/ProducttypesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1674">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/invoices.volt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/workflow/index.volt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contact/index.volt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/CompaniesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/forms/CompaniesForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/forms/ProductTypesForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-191">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -1547,53 +630,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Services.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="116" column="37" selection-start-line="116" selection-start-column="37" selection-end-line="116" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="450">
+          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#28#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/index/index.volt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/loader.php">
+    <entry file="file://$PROJECT_DIR$/cache/volt/%%var%%www%%phalcon%%app%%views%%companies%%index.volt.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/library/Base/Services.php">
+    <entry file="file://$PROJECT_DIR$/cache/volt/%%var%%www%%phalcon%%app%%views%%about%%index.volt.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state relative-caret-position="18">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/session/index.volt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/errors/show404.volt">
+    <entry file="file://$PROJECT_DIR$/cache/volt/%%var%%www%%phalcon%%app%%views%%layouts%%main.volt.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1601,168 +662,266 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/errors/show500.volt">
+    <entry file="file://$PROJECT_DIR$/cache/volt/%%var%%www%%phalcon%%app%%views%%contact%%index.volt.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/errors/show401.volt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/plugins/NotFoundPlugin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/workflow/profile.volt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/index.volt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/main.volt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/init.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="30" column="73" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/register/index.volt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/SessionController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="64" column="49" selection-start-line="64" selection-start-column="49" selection-end-line="64" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/forms/RegisterForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/ErrorsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/library/Elements.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-313">
-          <caret line="41" column="61" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
+        <state relative-caret-position="144">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/plugins/SecurityPlugin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
-          <folding>
-            <element signature="e#7#23#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/RegisterController.php">
+    <entry file="file://$PROJECT_DIR$/app/views/back.volt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        <state relative-caret-position="324">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/WorkflowController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+        <state relative-caret-position="206">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
-            <element signature="e#7#25#0#PHP" expanded="true" />
+            <element signature="n#profileAction#0;n#WorkflowController#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/ControllerBase.php">
+    <entry file="file://$PROJECT_DIR$/app/plugins/tinyfilemanager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        <state relative-caret-position="156">
+          <caret line="1660" column="19" selection-start-line="1660" selection-start-column="19" selection-end-line="1660" selection-end-column="20" />
+          <folding>
+            <element signature="e#6#141#0#PHP" expanded="true" />
+            <marker date="1530013554051" expanded="true" signature="36118:36131" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/index.volt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/workflow/profile.volt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/register/index.volt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/nav.volt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/head.volt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+          <folding>
+            <element signature="e#61#89#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/errors/show401.volt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/file.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+          <folding>
+            <element signature="e#6#141#0#PHP" expanded="true" />
+            <marker date="1530018449475" expanded="true" signature="36119:36132" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/workflow/index.volt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="83" column="97" selection-start-line="83" selection-start-column="97" selection-end-line="83" selection-end-column="97" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/ErrorsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="0" selection-start-line="8" selection-start-column="5" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="144">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Users.php">
+    <entry file="file://$PROJECT_DIR$/app/controllers/RegisterController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        <state relative-caret-position="252">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/containers/asterisk/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+        <state relative-caret-position="363">
+          <caret line="149" column="0" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/containers/postgres/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.dump">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migration/dump/dump_latest.dump">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/init.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="967">
+          <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/loader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/ControllerBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#7#34#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migration/source/migrations/20180626070619_user_auth_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migration/phinx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-185">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migration/phinx.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+        <state relative-caret-position="283">
+          <caret line="89" column="11" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="11" />
           <folding>
-            <marker date="1529942458743" expanded="true" signature="14:23" ph="..." />
+            <marker date="1530012657714" expanded="true" signature="14:23" ph="..." />
           </folding>
         </state>
       </provider>

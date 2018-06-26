@@ -97,15 +97,15 @@ class SecurityPlugin extends Plugin
 		$auth = $this->session->get('auth');
 		if (!$auth){
 			$role = 'Guests';
+			$this->view->setVar('auth', 'true');
 		} else {
 			$role = 'Users';
+			$this->view->setVar('auth', 'false');
 		}
 
 		$controller = $dispatcher->getControllerName();
 		$action = $dispatcher->getActionName();
-
-		/*var_dump($controller);
-		var_dump($action);*/
+		
 
 		$acl = $this->getAcl();
 		/*var_dump($acl);*/
@@ -128,4 +128,7 @@ class SecurityPlugin extends Plugin
 			return false;
 		}
 	}
+
+
 }
+

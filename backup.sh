@@ -7,4 +7,4 @@ set -e
 
 echo -n 'Create database dump ... '
 pg_dump -h localhost -U root -p 5437  -Fc \
-    asteriks > db.dump
+    asterisk > db.dump

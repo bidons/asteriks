@@ -1,3 +1,4 @@
+{#
 <nav class="navbar navbar-default navbar-inverse" role="navigation">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -9,9 +10,10 @@
             </button>
             <a class="navbar-brand" href="#"></a>
         </div>
-        {{ elements.getMenu() }}
+
     </div>
 </nav>
+#}
 
 <div class="container">
     {{ flash.output() }}

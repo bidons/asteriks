@@ -15,7 +15,12 @@ class ErrorsController extends ControllerBase
 
     public function show404Action()
     {
-
+        return $this->dispatcher->forward(
+            [
+                "controller" => "session",
+                "action"     => "index",
+            ]
+        );
     }
 
     public function show401Action()

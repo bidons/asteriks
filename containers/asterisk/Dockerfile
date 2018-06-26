@@ -148,5 +148,7 @@ COPY http.conf /etc/asterisk/http.conf
 # found @ https://github.com/CentOS/sig-cloud-instance-images/issues/71
 RUN localedef -i en_US -f UTF-8 en_US.UTF-8
 
+RUN chmod +x -R /var/spool/asterisk
+RUN chmod +x -R /etc/asterisk
 # And run asterisk in the foreground.
 CMD asterisk -f

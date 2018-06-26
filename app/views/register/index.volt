@@ -8,7 +8,7 @@
 {{ form('register', 'id': 'registerForm', 'onbeforesubmit': 'return false') }}
 
     <fieldset>
-        <div class="control-group">
+    {#    <div class="control-group">
             {{ form.label('name', ['class': 'control-label']) }}
             <div class="controls">
                 {{ form.render('name', ['class': 'form-control']) }}
@@ -17,7 +17,7 @@
                     <strong>Warning!</strong> Please enter your full name
                 </div>
             </div>
-        </div>
+        </div>#}
 
         <div class="control-group">
             {{ form.label('username', ['class': 'control-label']) }}

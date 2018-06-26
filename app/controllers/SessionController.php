@@ -52,11 +52,11 @@ class SessionController extends ControllerBase
                 ]);
             }catch (Exception $e)
             {
-                
             }
 
             if ($user != false) {
                 $this->_registerSession($user);
+                $this->view->setVar('auth','true');
 
                 /*$this->flash->success('Welcome ' . $user->name);*/
 
@@ -73,7 +73,7 @@ class SessionController extends ControllerBase
 
         return $this->dispatcher->forward(
             [
-                "controller" => "session",
+                "controller" => "workflow",
                 "action"     => "index",
             ]
         );
@@ -91,7 +91,7 @@ class SessionController extends ControllerBase
 
         return $this->dispatcher->forward(
             [
-                "controller" => "index",
+                "controller" => "session",
                 "action"     => "index",
             ]
         );

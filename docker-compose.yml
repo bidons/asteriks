@@ -58,8 +58,8 @@ services:
     #image: phalconphp/nginx:1.10
     container_name: phalcon.compose.asterisk.nginx
     ports:
-      - "85:80"
-      - "444:443"
+      - "80:80"
+      - "443:443"
     depends_on:
       - php
     volumes:
@@ -75,18 +75,16 @@ services:
       APPLICATION_ENV: development
     tty: true
 
-  #asterisk:
-  #    build: containers/asterisk
-  #    restart: always
-  #    container_name: phalcon.compose.asterisk.asterisk
-  #    ports:
-  #      - "855:80"
-  #      - "4000:443"
-  #    #volumes:
-  #    #  - ./asterisk:/var/spool/asterisk
-  #    volumes_from:
-  #      - application
-  #    tty: true
+  asterisk:
+    build: containers/asterisk
+    restart: always
+    container_name: phalcon.compose.asterisk.asterisk
+    volumes:
+       - ./asterisk/dynamic:/var/spool/asterisk
+       - ./asterisk/config:/etc/asterisk
+    volumes_from:
+        - application
+    tty: true
 
 volumes:
   postgres:

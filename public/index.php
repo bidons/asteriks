@@ -1,7 +1,7 @@
 <?php
 
 error_reporting(E_ALL);
-
+ini_set('display_errors', 1);
 use Phalcon\Mvc\Application;
 use Phalcon\Config\Adapter\Ini as ConfigIni;
 
@@ -21,6 +21,8 @@ try {
      * Auto-loader configuration
      */
     require APP_PATH . 'app/config/loader.php';
+    require APP_PATH . 'helpers.php';
+
 
     $application = new Application(new Services($config));
 

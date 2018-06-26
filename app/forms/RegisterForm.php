@@ -11,7 +11,7 @@ class RegisterForm extends Form
     public function initialize($entity = null, $options = null)
     {
         // Name
-        $name = new Text('name');
+       /* $name = new Text('name');
         $name->setLabel('Your Full Name');
         $name->setFilters(['striptags', 'string']);
         $name->addValidators([
@@ -19,7 +19,7 @@ class RegisterForm extends Form
                 'message' => 'Name is required'
             ])
         ]);
-        $this->add($name);
+        $this->add($name);*/
 
         // Name
         $name = new Text('username');
